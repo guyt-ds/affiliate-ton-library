@@ -1,0 +1,14 @@
+{
+  "name": "affiliate-ton-library",
+  "version": "1.0.0",
+  "description": "JavaScript library for advertisers to track user actions on the TON blockchain",
+  "main": "src/actions.js",
+  "scripts": {
+    "test": "node examples/basicExample.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ton": "^1.0.0",
+    "ton-crypto": "^1.0.0"
+  }
+}
